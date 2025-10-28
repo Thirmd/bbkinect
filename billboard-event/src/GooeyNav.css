@@ -75,7 +75,7 @@
 
 .gooey-nav-container nav ul li a {
   display: inline-block;
-  padding: 0.6em 1em;
+  padding: 1.5em 3em;
 }
 
 .gooey-nav-container nav ul li:focus-within:has(:focus-visible) {
@@ -86,7 +86,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  border-radius: 10px;
+  border-radius: 40px;
   background: white;
   opacity: 0;
   transform: scale(0);
@@ -141,7 +141,7 @@
   transform: scale(0);
   opacity: 0;
   z-index: -1;
-  border-radius: 100vw;
+  border-radius: 40px;
 }
 
 .gooey-nav-container .effect.active::after {
